@@ -6,7 +6,9 @@ local function event_listener(event)
 
         if attacker == me and dead ~= me then
             local entity = entitylist.GetPlayerByIndex(dead)
-            engine.ExecuteClientCmd("say " .. entity:GetName() .. ", ты кто ннчик? Я драгонфикс. SkeetUser.");
+            engine.ExecuteClientCmd("say " .. entity:GetName() .. ", ты кто ннчик? Я Timan , у меня есть свой чит.");
+            engine.ExecuteClientCmd("say " .. entity:GetName() .. ", Хочешь чит?. Платишь 200р на киви и получаешь чит.");
+            engine.ExecuteClientCmd("say " .. entity:GetName() .. ", вот вк https://vk.com/id479306393 .");
         end
     end
 end
